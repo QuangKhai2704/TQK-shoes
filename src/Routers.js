@@ -3,7 +3,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import Login from './screens/Login';
 import Register from './screens/Register';

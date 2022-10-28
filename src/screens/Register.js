@@ -1,5 +1,4 @@
 import React from 'react';
-import Eye from '../assets/Eye';
 import EyeClose from '../assets/EyeClose';
 import Header from '../components/Header';
 
