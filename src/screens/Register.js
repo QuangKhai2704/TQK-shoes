@@ -5,9 +5,9 @@ import Header from '../components/Header';
 export default function Login() {
   return (
     <div className='mt-16 px-16 auth-screen'>
-      {/* header */}
+
       <Header />
-      {/* content */}
+
       <div className='wrap-content'>
         <div className='left'></div>
         <div className='flex w-1/2 justify-center items-center right '>

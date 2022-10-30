@@ -12,10 +12,9 @@ function App() {
   };
   return (
     <div>
-      {/* header */}
+      
       <Header />
 
-      {/* trademark */}
       <div className='flex flex-row move-down'>
         <div className='flex flex-col w-1/2 justify-center items-center'>
           <div className='text-6xl font-bold text-center mx-20'>REGAIN YOUR CONFIDENCE ON THE COURT.</div>
@@ -24,7 +23,7 @@ function App() {
         <div className='flex w-1/2 img-hero' />
       </div>
 
-      {/* category */}
+      
       <div className='flex flex-row justify-around px-10 mt-8'>
         {categories.map((e, i) => (
           <div className='border flex-1 justify-center items-center relative'
@@ -40,7 +39,7 @@ function App() {
         ))}
       </div>
 
-      {/* feature */}
+     
       <div className='px-10 mt-8'>
         <div className='text-6xl font-bold'>FEATURED</div>
         <div className='feature-img'>#Off the Wall</div>

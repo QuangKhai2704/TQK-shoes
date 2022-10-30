@@ -27,13 +27,13 @@ function App() {
 
   return (
     <div>
-      {/* header */}
+     
       <Header />
 
-      {/* product */}
+     
       <div className="head">Products</div>
       <div className='product-container flex flex-row'>
-        {/* filter column */}
+     
         <div className='w-72 mr-10'>
           <div className='mt-6 flex flex-row items-center justify-between'>
             <div className='text-2xl font-bold'>Filter</div>
@@ -50,8 +50,7 @@ function App() {
                 id="men"
                 name="gender"
                 value="men"
-              // checked={gender === "MEN"}
-              // onChange={() => {}}
+            
               />
               <label htmlFor="men">Men</label>
             </div>
@@ -62,8 +61,7 @@ function App() {
                 id="women"
                 name="gender"
                 value="women"
-              // checked={gender === "women"}
-              // onChange={() => {}}
+           
               />
               <label htmlFor="women">Women</label>
             </div>
@@ -74,8 +72,7 @@ function App() {
                 id="kid"
                 name="gender"
                 value="kid"
-              // checked={gender === "kid"}
-              // onChange={() => {}}
+
               />
               <label htmlFor="kid">Kid</label>
             </div>
@@ -96,8 +93,7 @@ function App() {
               className="w-11/12"
               min={1}
               max={5}
-            // value={2}
-            // onChange={(e) => { }}
+       
             />
           </div>
 
@@ -108,8 +104,7 @@ function App() {
               type="checkbox"
               id="option1"
               name="nike"
-            // checked={'nike'}
-            // onChange={() => {}}
+         
             />
             <label htmlFor="option1">Nike</label>
           </div>
@@ -119,8 +114,7 @@ function App() {
               type="checkbox"
               id="option2"
               name="adidas"
-            // checked={'adidas'}
-            // onChange={() => {}}
+ 
             />
             <label htmlFor="option2">Adidas</label>
           </div>
@@ -130,8 +124,7 @@ function App() {
               type="checkbox"
               id="option3"
               name="puma"
-            // checked={'puma'}
-            // onChange={() => {}}
+    
             />
             <label htmlFor="option3">Puma</label>
           </div>
@@ -148,17 +141,13 @@ function App() {
           </div>
         </div>
 
-        {/* item column */}
+     
         <div className='flex-1'>
           <div className='flex flex-row items-center'>
             <div className='mr-2'>Sort by</div>
             <select
               className='border rounded border-gray-600 h-9'
-            // value={selectedSort}
-            // onChange={(e) => {
-            //     setSelectedSort(e.target.value);
-            //     dispatch({ type: e.target.value });
-            // }}
+           
             >
               <option>Please select an option</option>
               <option value="HIGH_TO_LOW">
@@ -170,7 +159,6 @@ function App() {
             </select>
           </div>
 
-          {/* item */}
           <div className='flex flex-wrap overflow-auto mt-4 -mr-10' style={{ height: 'calc(100vh - 16rem)' }}>
             {products.map(e => (
               <div key={e._id} className='mr-12 mb-12' style={{ width: 'calc(25% - 48px)' }}>
@@ -182,7 +170,7 @@ function App() {
                 </div>
                 <div className='p-1'>
                   <div onClick={() => navigate(`/detail/${e?._id}`)} className='font-bold'>{e.name}</div>
-                  {/* <div>{e.accessories}</div> */}
+                  
                   <div>{e.star}⭐</div>
                   <div>{e.price}$</div>
                 </div>
