@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TQK-shoes/static/css/main.70f430e6.css",
+    "main.js": "/TQK-shoes/static/js/main.167cb82b.js",
+    "static/js/787.82724b75.chunk.js": "/TQK-shoes/static/js/787.82724b75.chunk.js",
+    "static/media/products-image.jpg": "/TQK-shoes/static/media/products-image.b4b04ea27a7f2d212ed8.jpg",
+    "static/media/featured.jpg": "/TQK-shoes/static/media/featured.7ef74292fe25971009c0.jpg",
+    "static/media/shoe-head.jpg": "/TQK-shoes/static/media/shoe-head.9e975992efde2239dce3.jpg",
+    "static/media/hero-shoe.jpg": "/TQK-shoes/static/media/hero-shoe.39d31b05171a0e816481.jpg",
+    "static/media/women.webp": "/TQK-shoes/static/media/women.6c53fec40918fc6706b5.webp",
+    "static/media/kids.webp": "/TQK-shoes/static/media/kids.a782fd7023578d55d62c.webp",
+    "static/media/men.webp": "/TQK-shoes/static/media/men.20f4251a965ca02f5966.webp",
+    "static/media/shoe3.jfif": "/TQK-shoes/static/media/shoe3.be095cd69fe910c0a4c5.jfif",
+    "static/media/shoe1.jfif": "/TQK-shoes/static/media/shoe1.7f2e832ca589663286eb.jfif",
+    "static/media/shoe2.jfif": "/TQK-shoes/static/media/shoe2.c31ff940407621e3308d.jfif",
+    "index.html": "/TQK-shoes/index.html",
+    "main.70f430e6.css.map": "/TQK-shoes/static/css/main.70f430e6.css.map",
+    "main.167cb82b.js.map": "/TQK-shoes/static/js/main.167cb82b.js.map",
+    "787.82724b75.chunk.js.map": "/TQK-shoes/static/js/787.82724b75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70f430e6.css",
+    "static/js/main.167cb82b.js"
+  ]
+}
